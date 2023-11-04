@@ -4,6 +4,17 @@
 
 ## Version
 The current version is 0.1. It has been tested, but not thoroughly so.
+Windows compatibility still needs testing.
+
+## Installation
+
+In your target python environment, use the following command:
+
+```bash
+pip install git+https://github.com/syntheticdinosaur/tvnsrtools.git
+```
+
+The command line tool 'tvnsMockServer' is also automatically installed.
 
 ## Introduction
 
