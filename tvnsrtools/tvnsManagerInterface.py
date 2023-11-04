@@ -1,5 +1,5 @@
 """
-tVNS Manager Communication Module
+tVNS Manager Interface Module
 author:Joshua Woller
 
 This Python module allows communication with a tVNS-R Stimulator device via HTTP commands.
