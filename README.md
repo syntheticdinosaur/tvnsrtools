@@ -5,6 +5,7 @@
 ## Version
 The current version is 0.1. It has been tested, but not thoroughly so.
 Windows compatibility still needs testing.  
+
 This package was developed in a research setting. The developer is not associated with the device manufacturer (tVNS-R, tVNS technologies GmbH). Please take note of the disclaimer on the bottom of this readme.
 
 ## Installation
@@ -71,7 +72,6 @@ tvns_manager = TVNSManager(tvns_manager_url, log_file_name)
 tvns_manager.initialize_connection()
 tvns_manager.start_treatment()
 tvns_manager.start_stimulation()
-tvns_manager.pause_stimulation(pause_duration)
 tvns_manager.stop_stimulation()
 tvns_manager.stop_treatment()
 ```
@@ -103,4 +103,4 @@ If this toolbox is useful for you, feel free to acknowledge it in a suitable way
 
 ---
 
-**Disclaimer**: This package is for research and testing purposes only. Use at your own risk, the software is provided as is. No liability is taken and warranty given. It is not intended for medical use, and any medical applications should be implemented with appropriate medical device certifications and regulatory approvals.
+**Disclaimer**: This package is for research and testing purposes only. Use at your own risk, the software is provided as is. No liability is taken and no warranty given. It is strictly not intended for medical use, and any medical applications should be implemented with appropriate medical device certifications and regulatory approvals.
