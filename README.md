@@ -5,10 +5,11 @@
 ## Version
 The current version is 0.1. It has been tested, but not thoroughly so.
 Windows compatibility still needs testing.
+This pacakge was developed in a research setting. The developer is not associated with the device manufacturer (tVNS-R, tVNS technologies GmbH). Please take note of the disclaimer on the bottom of this readme.
 
 ## Installation
-
-In your target python environment, use the following command:
+Your OS needs Python >3.8 installed.
+From the command line, use the following command:
 
 ```bash
 pip install git+https://github.com/syntheticdinosaur/tvnsrtools.git
@@ -98,7 +99,7 @@ This package is open-source and is provided under the MIT License. You are free 
 
 ## Acknowledgments
 
-The TVNS Mock Server and TVNS Manager Interface Module were developed for simulating and communicating with a tVNS-R Stimulator device. They can be adapted and extended to suit specific project requirements.
+If this toolbox is useful for you, feel free to acknowledge it in a suitable way.
 
 ---
 
