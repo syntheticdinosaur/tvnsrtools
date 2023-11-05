@@ -42,8 +42,8 @@ Run the script with optional command-line arguments to set the port and failure 
 
 ### Command-line Arguments
 
-- `--port`: Port for the HTTP server (default: 51523).
-- `--failure-probability`: Failure probability for tVNS-R commands (0.0 to 1.0, default: 0.0).
+- `-p`, `--port`: Port for the HTTP server (default: 51523).
+- `-f`, `--failure-probability`: Failure probability for tVNS-R commands (0.0 to 1.0, default: 0.0).
 
 ### Example
 
@@ -51,6 +51,12 @@ To start the server on port 8080 with a 20% failure probability for commands:
 
 ```bash
 tvnsMockServer --port 8080 --failure-probability 0.2
+```
+
+or, with identical meaning:
+
+```bash
+tvnsMockServer -p 8080 -f 0.2
 ```
 
 ## TVNS Manager Interface Module
