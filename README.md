@@ -9,7 +9,7 @@ Windows compatibility still needs testing.
 This package was developed in a research setting. The developer is not associated with the device manufacturer (tVNS-R, tVNS technologies GmbH). Please take note of the disclaimer on the bottom of this readme.
 
 ## Installation
-Your OS needs Python >3.8 installed.
+Your OS needs Python >=3.8 installed.
 From the command line, use the following command:
 
 ```bash
