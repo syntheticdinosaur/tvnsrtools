@@ -30,6 +30,7 @@ This Python package provides two components:
 
 The TVNS Mock Server creates a mock server that simulates an HTTP interface for controlling a tVNS-R device. It provides the following functionality:
 
+- The server listens for HTTP POST requests with specific command bodies and responds accordingly.
 - Simulates failures with a specified probability for each command.
 - Command-line usage.
 
@@ -38,9 +39,6 @@ It responds to the HTTP Post requests as the tVNS-R decive would and can be used
 ### Usage
 After a successful install tvnsMockServer is available from the command line.
 Run the script with optional command-line arguments to set the port and failure probability.
-
-- The server listens for HTTP POST requests with specific command bodies and responds accordingly.
-- Each specific command can fail with the specified failure probability.
 
 ### Command-line Arguments
 
@@ -75,15 +73,6 @@ tvns_manager.start_stimulation()
 tvns_manager.stop_stimulation()
 tvns_manager.stop_treatment()
 ```
-
-### Classes
-
-- **Logger**: Handles logging of events to a log file with timestamps.
-- **TVNSManager**: Communicates with the tVNS-R Stimulator device via HTTP requests.
-
-### Note
-
-- Adjust the `pause_duration` variable as needed to control the duration of stimulation pauses.
 
 ## Testing
 
