@@ -4,8 +4,8 @@
 
 ## Version
 The current version is 0.1. It has been tested, but not thoroughly so.
-Windows compatibility still needs testing.
-This pacakge was developed in a research setting. The developer is not associated with the device manufacturer (tVNS-R, tVNS technologies GmbH). Please take note of the disclaimer on the bottom of this readme.
+Windows compatibility still needs testing.  
+This package was developed in a research setting. The developer is not associated with the device manufacturer (tVNS-R, tVNS technologies GmbH). Please take note of the disclaimer on the bottom of this readme.
 
 ## Installation
 Your OS needs Python >3.8 installed.
