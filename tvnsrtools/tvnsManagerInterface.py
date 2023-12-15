@@ -101,7 +101,7 @@ class TVNSManager:
         _send_request(endpoint, body=None):
             Sends an HTTP POST request to the tVNS Manager endpoint.
     """
-    def __init__(self, base_url:str = "http://localhost:51523/tvnsmanager/", log_file:str = None):
+    def __init__(self, base_url:str = "http://127.0.0.1:51523/tvnsmanager/", log_file:str = None):
         self.base_url = base_url
         self.logger = Logger(log_file) if log_file else None
         self.stimactive = False
@@ -230,7 +230,7 @@ class TVNSManager:
 def test():
     # Replace with the participant's name (if applicable) and log file name
     log_file_name    = "tvnslog_test"
-    url = "http://localhost:51523/tvnsmanager/"
+    url = "http://127.0.0.1:51523/tvnsmanager/"
     # Create an instance of the TVNSManager with optional logging
     tvns_manager = TVNSManager(url ,log_file_name)
 
