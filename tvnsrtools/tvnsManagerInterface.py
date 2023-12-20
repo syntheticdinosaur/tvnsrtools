@@ -199,6 +199,12 @@ class TVNSManager:
             self.logger.log(result)
         time.sleep(pause_duration)
         return result
+
+    def soft_start(self):
+        """ Starts a treatment, but stops the stimulation pulse, as normally the entire stimulation program is started. """
+        self.start_treatment()
+        time.sleep(0.2)
+        self.stop_stimulation()    
     
     def pulse(self, duration):
         """
